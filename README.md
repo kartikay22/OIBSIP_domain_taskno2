@@ -1,41 +1,45 @@
 # OIBSIP_domain_taskno2
-
-Python Command-Line Password Generator
-This is a simple yet effective command-line tool for generating random passwords based on user-defined criteria. It's a great project for beginners to practice handling user input, string manipulation, and basic randomization in Python.
+Simple Python Password Generator
+This project is a command-line utility written in Python that generates a random password based on criteria provided by the user. It is a straightforward and effective tool for creating strong and secure passwords.
 
 Features
-User-defined Length: Specify the desired length of your password.
+User-Defined Length: You can specify exactly how long you want the password to be.
 
-Customizable Character Set: Choose to include or exclude letters, numbers, and special characters.
+Customizable Character Set: The script allows you to choose which character types (letters, numbers, and special characters) to include in the generated password.
 
-Simple Interface: A clean command-line interface makes it easy to use.
+Error Handling: It gracefully handles invalid input, such as non-numeric values for password length.
 
-How to Use
+How to Use -
 Prerequisites
-You need to have Python installed on your computer.
+To run this script, you must have Python installed on your computer.
 
 Running the Script
 Open your terminal or command prompt.
 
-Navigate to the directory where you saved the randompasswordgenerator.py file.
+Navigate to the directory where you have saved the password_generator.py file.
 
-# Example command to change directory (Windows)
-cd C:\Users\YourUsername\Downloads\your_project_folder
+# Example for Windows:
+cd C:\Users\YourUsername\Documents\YourProjectFolder
 
-Run the script using the following command:
+Execute the script using the python command:
 
-python randompasswordgenerator.py
+python password_generator.py
 
-The script will then prompt you to enter your preferences for the password, such as its length and the character types to include.
+Follow the on-screen prompts to enter the desired password length and choose which character types you want to include.
+
+Example
+Swapneel Password Generator
+enter your password lenght: 16
+include letter in your password? (Y/N): y
+include number in your password? (Y/N): y
+include Special character in your password? (Y/N): y
+Your Generated Password: w!7r_jB#8T9@xL2s
 
 Contributing
-Feel free to fork this repository and submit pull requests to improve the project. You can add new features like:
+Feel free to fork this project and submit a pull request with your improvements. Some ideas for enhancement include:
 
-A graphical user interface (GUI)
+A graphical user interface (GUI) for easier interaction.
 
-More specific character set options
+The ability to copy the generated password directly to the clipboard.
 
-An option to save generated passwords to a file
-
-License
-This project is open-source.
+Additional security checks to ensure the password meets common complexity requirements.

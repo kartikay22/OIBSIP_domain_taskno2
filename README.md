@@ -9,7 +9,7 @@ Customizable Character Set: The script allows you to choose which character type
 
 Error Handling: It gracefully handles invalid input, such as non-numeric values for password length.
 
-How to Use -
+How to Use
 Prerequisites
 To run this script, you must have Python installed on your computer.
 
@@ -28,7 +28,7 @@ python password_generator.py
 Follow the on-screen prompts to enter the desired password length and choose which character types you want to include.
 
 Example
-Swapneel Password Generator
+Kartikay Password Generator
 enter your password lenght: 16
 include letter in your password? (Y/N): y
 include number in your password? (Y/N): y
